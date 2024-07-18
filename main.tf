@@ -1,12 +1,19 @@
 terraform {
   required_providers {
     aws = {
-      source  = "hashicorp/aws"
-      version = "~> 4.16"
+      source = "hashicorp/aws"
     }
   }
-  required_version = ">= 1.2.0"
+
+  backend "remote" {
+    organization = "gwettlaufertest"
+
+    workspaces {
+      name = "cloud-resume-api"
+    }
+  }
 }
+
 provider "aws" {
   region = "us-east-1"
 }
