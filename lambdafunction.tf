@@ -31,11 +31,12 @@ resource "aws_lambda_function" "cloud-resume-api" {
 
 
 
-  filename      = "./lambda/lambda_function.zip"
-  function_name = "cloud-resume-api"
-  role          = aws_iam_role.iam_for_lambda.arn
-  handler       = "go.lambda_handler"
-  runtime       = "provided.al2023"
+  filename         = "./lambda/lambda_function.zip"
+  function_name    = "cloud-resume-api"
+  role             = aws_iam_role.iam_for_lambda.arn
+  handler          = "go.lambda_handler"
+  runtime          = "provided.al2023"
+  source_code_hash = filebase64sha256("./lambda/lambda_function.zip")
 
 
 
