@@ -1,25 +1,19 @@
 package main
 
 import (
-	"context"
-	"fmt"
+	"log"
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
 )
 
-func handler(ctx context.Context, req events.APIGatewayV2HTTPRequest) (events.APIGatewayV2HTTPResponse, error) {
-	body := fmt.Sprintf("Your method is %s", req.RequestContext.HTTP.Method)
+func handler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyResponse, error) {
+	log.Println("Hello World")
 
-	headers := map[string]string{
-		"Content-Type": "text/plain",
-	}
-
-	return events.APIGatewayV2HTTPResponse{
-		Body:       body,
+	response := events.APIGatewayProxyResponse{
 		StatusCode: 200,
-		Headers:    headers,
-	}, nil
+	}
+	return response, nil
 }
 
 func main() {
