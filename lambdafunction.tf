@@ -35,7 +35,7 @@ resource "aws_lambda_function" "cloud-resume-api" {
   function_name = "cloud-resume-api"
   role          = aws_iam_role.iam_for_lambda.arn
   handler       = "go.lambda_handler"
-  runtime       = "provided.al2"
+  runtime       = "provided.al2023"
 
 
 
