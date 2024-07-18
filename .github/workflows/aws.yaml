@@ -18,4 +18,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
       - name: Dynamodb
-        run: aws dynamodb batch-write-item --request-items file://data.json --delete
+        run: aws dynamodb batch-write-item --request-items file://data.json 
