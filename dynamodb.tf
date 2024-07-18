@@ -1,12 +1,12 @@
 resource "aws_dynamodb_table" "resume-api" {
   name           = "Resume-api"
   billing_mode   = "PROVISIONED"
-  hash_key       = "ID"
+  hash_key       = "id"
   read_capacity  = 5
   write_capacity = 5
 
   attribute {
-    name = "ID"
+    name = "id"
     type = "S"
   }
 }
