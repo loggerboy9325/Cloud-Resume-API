@@ -1,5 +1,5 @@
 resource "aws_iam_role" "iam_for_lambda" {
-  name = "iam_for_lambda"
+  name = "iam_for_lambda_1"
 
   assume_role_policy = <<EOF
 {
@@ -52,7 +52,7 @@ resource "aws_cloudwatch_log_group" "cloudresume" {
 
 
 resource "aws_iam_policy" "lambda_logging" {
-  name        = "lambda_logging"
+  name        = "lambda_cloud_resume_api"
   path        = "/"
   description = "IAM policy for logging from a lambda"
 
