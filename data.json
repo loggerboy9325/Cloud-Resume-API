@@ -11,40 +11,22 @@
               "name": {
                 "S": "George Wettlaufer IV"
               },
-              "label": {
-                "S": "Programmer"
-              },
-              "image": {
-                "S": ""
-              },
               "email": {
-                "S": "john@gmail.com"
+                "S": "georgewettiv@gmail.com"
               },
               "phone": {
-                "S": "(912) 555-4321"
+                "S": "(570)-690-8249"
               },
               "url": {
-                "S": "https://johndoe.com"
+                "S": "https://gwresume.com/"
               },
               "summary": {
-                "S": "A summary of John Doe…"
+                "S": ""
               },
               "location": {
                 "M": {
-                  "address": {
-                    "S": "2712 Broadway St"
-                  },
-                  "postalCode": {
-                    "S": "CA 94115"
-                  },
-                  "city": {
-                    "S": "San Francisco"
-                  },
-                  "countryCode": {
-                    "S": "US"
-                  },
                   "region": {
-                    "S": "California"
+                    "S": "Pennsylvania"
                   }
                 }
               },
@@ -53,13 +35,13 @@
                   {
                     "M": {
                       "network": {
-                        "S": "Twitter"
+                        "S": "LinkedIn"
                       },
                       "username": {
-                        "S": "john"
+                        "S": "loggerboy9325"
                       },
                       "url": {
-                        "S": "https://twitter.com/john"
+                        "S": "https://www.linkedin.com/in/george-wettlaufer-iv/"
                       }
                     }
                   }
@@ -72,118 +54,19 @@
               {
                 "M": {
                   "name": {
-                    "S": "Company"
+                    "S": "Tyler Memorial Hospital"
                   },
                   "position": {
-                    "S": "President"
-                  },
-                  "url": {
-                    "S": "https://company.com"
+                    "S": "Maintenance/Security"
                   },
                   "startDate": {
-                    "S": "2013-01-01"
+                    "S": "03/2021"
                   },
                   "endDate": {
-                    "S": "2014-01-01"
+                    "S": "06/2022"
                   },
                   "summary": {
-                    "S": "Description…"
-                  },
-                  "highlights": {
-                    "L": [
-                      {
-                        "S": "Started the company"
-                      }
-                    ]
-                  }
-                }
-              }
-            ]
-          },
-          "volunteer": {
-            "L": [
-              {
-                "M": {
-                  "organization": {
-                    "S": "Organization"
-                  },
-                  "position": {
-                    "S": "Volunteer"
-                  },
-                  "url": {
-                    "S": "https://organization.com/"
-                  },
-                  "startDate": {
-                    "S": "2012-01-01"
-                  },
-                  "endDate": {
-                    "S": "2013-01-01"
-                  },
-                  "summary": {
-                    "S": "Description…"
-                  },
-                  "highlights": {
-                    "L": [
-                      {
-                        "S": "Awarded 'Volunteer of the Month'"
-                      }
-                    ]
-                  }
-                }
-              }
-            ]
-          },
-          "education": {
-            "L": [
-              {
-                "M": {
-                  "institution": {
-                    "S": "University"
-                  },
-                  "url": {
-                    "S": "https://institution.com/"
-                  },
-                  "area": {
-                    "S": "Software Development"
-                  },
-                  "studyType": {
-                    "S": "Bachelor"
-                  },
-                  "startDate": {
-                    "S": "2011-01-01"
-                  },
-                  "endDate": {
-                    "S": "2013-01-01"
-                  },
-                  "score": {
-                    "S": "4.0"
-                  },
-                  "courses": {
-                    "L": [
-                      {
-                        "S": "DB1101 - Basic SQL"
-                      }
-                    ]
-                  }
-                }
-              }
-            ]
-          },
-          "awards": {
-            "L": [
-              {
-                "M": {
-                  "title": {
-                    "S": "Award"
-                  },
-                  "date": {
-                    "S": "2014-11-01"
-                  },
-                  "awarder": {
-                    "S": "Company"
-                  },
-                  "summary": {
-                    "S": "There is no spoon."
+                    "S": "Monitored employee activities, confirming compliance with security regulations."
                   }
                 }
               }
@@ -194,53 +77,16 @@
               {
                 "M": {
                   "name": {
-                    "S": "AWS CCP"
+                    "S": "AWS CCP, AWS SSA, AWS SAP"
                   },
                   "date": {
                     "S": "2021-11-07"
                   },
                   "issuer": {
-                    "S": "Company"
+                    "S": "AWS"
                   },
                   "url": {
                     "S": "https://certificate.com"
-                  },
-                  "M": {
-                    "name": {
-                      "S": "AWS SAP"
-                    },
-                    "date": {
-                      "S": "2021-11-07"
-                    },
-                    "issuer": {
-                      "S": "AWS"
-                    },
-                    "url": {
-                      "S": "https://company.com"
-                    }
-                  }
-                }
-              }
-            ]
-          },
-          "publications": {
-            "L": [
-              {
-                "M": {
-                  "name": {
-                    "S": "Publication"
-                  },
-                  "publisher": {
-                    "S": "Company"
-                  },
-                  "releaseDate": {
-                    "S": "2014-10-01"
-                  },
-                  "url": {
-                    "S": "https://publication.com"
-                  },
-                  "summary": {
-                    "S": "Description…"
                   }
                 }
               }
@@ -251,37 +97,32 @@
               {
                 "M": {
                   "name": {
-                    "S": "Web Development"
-                  },
-                  "level": {
-                    "S": "Master"
+                    "S": "AWS/Programming"
                   },
                   "keywords": {
                     "L": [
                       {
-                        "S": "HTML"
+                        "S": "AWS"
                       },
                       {
-                        "S": "CSS"
+                        "S": "Python"
                       },
                       {
-                        "S": "JavaScript"
+                        "S": "Golang"
+                      },
+                      {
+                        "S": "Terraform"
+                      },
+                      {
+                        "S": "Docker"
+                      },
+                      {
+                        "S": "Kubernetes"
+                      },
+                      {
+                        "S": "Linux"
                       }
                     ]
-                  }
-                }
-              }
-            ]
-          },
-          "languages": {
-            "L": [
-              {
-                "M": {
-                  "language": {
-                    "S": "English"
-                  },
-                  "fluency": {
-                    "S": "Native speaker"
                   }
                 }
               }
@@ -292,31 +133,7 @@
               {
                 "M": {
                   "name": {
-                    "S": "Wildlife"
-                  },
-                  "keywords": {
-                    "L": [
-                      {
-                        "S": "Ferrets"
-                      },
-                      {
-                        "S": "Unicorns"
-                      }
-                    ]
-                  }
-                }
-              }
-            ]
-          },
-          "references": {
-            "L": [
-              {
-                "M": {
-                  "name": {
-                    "S": "Jane Doe"
-                  },
-                  "reference": {
-                    "S": "Reference…"
+                    "S": "Coding, Running, Cloud"
                   }
                 }
               }
@@ -327,26 +144,13 @@
               {
                 "M": {
                   "name": {
-                    "S": "Project"
-                  },
-                  "startDate": {
-                    "S": "2019-01-01"
-                  },
-                  "endDate": {
-                    "S": "2021-01-01"
+                    "S": "Cloud-Resume Challenge"
                   },
                   "description": {
-                    "S": "Description..."
-                  },
-                  "highlights": {
-                    "L": [
-                      {
-                        "S": "Won award at AIHacks 2016"
-                      }
-                    ]
+                    "S": "Website thats hosted on AWS"
                   },
                   "url": {
-                    "S": "https://project.com/"
+                    "S": "https://gwresume.com/"
                   }
                 }
               }
