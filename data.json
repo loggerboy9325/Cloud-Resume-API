@@ -194,7 +194,7 @@
               {
                 "M": {
                   "name": {
-                    "S": "Certificate"
+                    "S": "AWS CCP"
                   },
                   "date": {
                     "S": "2021-11-07"
@@ -204,6 +204,20 @@
                   },
                   "url": {
                     "S": "https://certificate.com"
+                  },
+                  "M": {
+                    "name": {
+                      "S": "AWS SAP"
+                    },
+                    "date": {
+                      "S": "2021-11-07"
+                    },
+                    "issuer": {
+                      "S": "AWS"
+                    },
+                    "url": {
+                      "S": "https://company.com"
+                    }
                   }
                 }
               }
