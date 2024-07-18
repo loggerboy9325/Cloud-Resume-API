@@ -42,9 +42,7 @@ resource "aws_lambda_permission" "apigw_lambda" {
 resource "aws_api_gateway_deployment" "cloud-resume-deply" {
   depends_on  = [aws_api_gateway_integration.Cloud-Resume-API]
   rest_api_id = aws_api_gateway_rest_api.Cloud-Resume-API-gateway.id
-  lifecycle {
-    create_before_destroy = true
-  }
+
 }
 
 resource "aws_api_gateway_stage" "Cloud-Resume-API-stage" {
@@ -54,13 +52,11 @@ resource "aws_api_gateway_stage" "Cloud-Resume-API-stage" {
 }
 
 
-output "crc_rest_api_execution_arn" {
-  value = aws_api_gateway_rest_api.Cloud-Resume-API-gateway.execution_arn
-}
+
 
 output "api_gateway_stage_details" {
   value = {
-    "stage_name" = "example",
+    "stage_name" = "prod",
     "stage_url"  = "${aws_api_gateway_stage.Cloud-Resume-API-stage.invoke_url}/${aws_api_gateway_resource.Cloud-Resume-API-gatewayresource.path_part}"
   }
 }
