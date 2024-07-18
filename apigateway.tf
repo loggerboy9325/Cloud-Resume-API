@@ -35,7 +35,7 @@ resource "aws_lambda_permission" "apigw_lambda" {
   action        = "lambda:InvokeFunction"
   function_name = aws_lambda_function.cloud-resume-api.function_name
   principal     = "apigateway.amazonaws.com"
-  source_arn    = "${aws_api_gateway_rest_api.Cloud-Resume-API-gateway.execution_arn}/*/*/*"
+  source_arn    = "${aws_api_gateway_rest_api.Cloud-Resume-API-gateway.execution_arn}/*/*"
 
 }
 
