@@ -7,6 +7,10 @@
 
 ![Diagram](cloud-resume-api-diagram.png)
 
+## Objective
+
+- The API returns resume information in JSON format using the services in the diagram above
+
 ## How-To
 
 - To invoke the API simply just click [https://ry5dzf3ztf.execute-api.us-east-1.amazonaws.com/prod/cloud-resume](https://ry5dzf3ztf.execute-api.us-east-1.amazonaws.com/prod/cloud-resume)
