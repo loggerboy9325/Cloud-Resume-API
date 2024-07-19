@@ -72,6 +72,17 @@
               }
             ]
           },
+          "education": {
+            "L": [
+              {
+                "M": {
+                  "name": {
+                    "S": "High-School"
+                  }
+                }
+              }
+            ]
+          },
           "certificates": {
             "L": [
               {
@@ -123,6 +134,17 @@
                         "S": "Linux"
                       }
                     ]
+                  }
+                }
+              }
+            ]
+          },
+          "languages": {
+            "L": [
+              {
+                "M": {
+                  "name": {
+                    "S": "English"
                   }
                 }
               }
