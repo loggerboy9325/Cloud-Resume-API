@@ -92,6 +92,26 @@
               }
             ]
           },
+          "certificate": {
+            "L": [
+              {
+                "M": {
+                  "name": {
+                    "S": "Go, Kubernetes, Docker, CI/CD, Shells and Terminals"
+                  },
+                  "date": {
+                    "S": "5/19/2024-6/12/2024"
+                  },
+                  "issuer": {
+                    "S": "boot.dev"
+                  },
+                  "url": {
+                    "S": "https://www.boot.dev/u/gwettlaufer"
+                  }
+                }
+              }
+            ]
+          },
           "skills": {
             "L": [
               {
