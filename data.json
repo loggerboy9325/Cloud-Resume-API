@@ -72,17 +72,6 @@
               }
             ]
           },
-          "education": {
-            "L": [
-              {
-                "M": {
-                  "name": {
-                    "S": "High-School"
-                  }
-                }
-              }
-            ]
-          },
           "certificates": {
             "L": [
               {
@@ -97,7 +86,7 @@
                     "S": "AWS"
                   },
                   "url": {
-                    "S": "https://certificate.com"
+                    "S": "https://www.credly.com/badges/507a4ad9-8de5-4ccc-bec5-c02fe5291be9/,https://www.credly.com/badges/adef849c-de89-474b-8e0e-0b1c3b32db5f/,https://www.credly.com/badges/2c21baee-6b1e-4155-b43f-742272c5e91f/"
                   }
                 }
               }
@@ -134,17 +123,6 @@
                         "S": "Linux"
                       }
                     ]
-                  }
-                }
-              }
-            ]
-          },
-          "languages": {
-            "L": [
-              {
-                "M": {
-                  "name": {
-                    "S": "English"
                   }
                 }
               }
