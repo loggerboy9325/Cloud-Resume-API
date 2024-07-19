@@ -14,5 +14,4 @@
 
 ## Links
 
-- This challenge was created by Rishab Kumar [Challenge-Link](https://cloudresumeapi.dev/)
-- Challenge Video: [Video](https://www.youtube.com/watch?v=-pKrT7Ix3G0&ab_channel=RishabinCloud) 
+- [Challenge-Link](https://cloudresumeapi.dev/)
